@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Restaurant Reservation</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h1>Restaurant Reservation</h1>
+<form action="/reserve" method="POST">
+<div class="form-group">
+<label for="name">Name</label>
+<input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+</div>
+<div class="form-group">
+<label for="email">Email</label>
+<input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+</div>
+<div class="form-group">
+<label for="phone">Phone Number</label>
+<input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number">
+</div>
+<div class="form-group">
+<label for="date">Date</label>
+<input type="date" class="form-control" id="date" name="date">
+</div>
+<div class="form-group">
+<label for="time">Time</label>
+<input type="time" class="form-control" id="time" name="time">
+</div>
+<div class="form-group">
+<label for="group_size">Group Size</label>
+<input type="number" class="form-control" id="group_size" name="group_size" placeholder="Enter the number of people in your group">
+</div>
+<button type="submit" class="btn btn-primary">Reserve</button>
+</form>
+</div>
+</body>
+</html>
+
+
+---
